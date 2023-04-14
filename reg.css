@@ -1,0 +1,124 @@
+/* General styles */
+body {
+  font-family: 'Comfortaa', sans-serif;
+  background-color: #161a2b;
+  color: #f7f7f7;
+  justify-content:center ;
+  align-items:center ;
+  height:100vh;
+}
+
+.container {
+  max-width: 500px;
+  border:.5px solid white ;
+  border-top:2px solid white;
+  border-right:2px solid white;
+  margin: 0 auto;
+  padding: 20px;
+  background:linear-gradient(65deg, gray, silver);
+  border-radius: 5px;
+}
+
+h1, h2 {
+  text-align: center;
+  margin-top: 0;
+  color: #161a2b ;
+}
+
+a{
+    text-decoration:none;
+    color:#6500ff;
+}
+
+button{
+    background:linear-gradient(65deg, gray, silver);
+    border:.2px solid white;
+    border-left:1.2px solid silver;
+    border-bottom:1px solid silver;
+    border-radius: 2px;
+    color: white;
+    padding: 3px 9px;
+    font-weight:bold;
+    letter-spacing:2px;
+    box-shadow: -1px 3px 0px rgba(0, 0, 0, 0.3);
+}
+
+form {
+  margin: 20px 0;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: white;
+  letter-spacing:1px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select {
+  display: block;
+  width: 94%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border:.1px solid white;
+  border-left: 1.2px solid gray;
+  border-bottom: .8px solid gray;
+  border-radius: 3px;
+  background:linear-gradient(65deg,#f0f0f0, white);
+  color: #333;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 12px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #00c0ff;
+}
+button:hover{
+    background: gray;
+    transition: 5s ease-in-out;
+}
+
+/* Login page specific styles */
+#login-form label[for="login-username"],
+#login-form label[for="login-password"] {
+  font-size: 1.2em;
+  color: #333;
+}
+
+#login-form input[type="text"],
+#login-form input[type="password"] {
+  font-size: 1.2em;
+  color: #333;
+}
+
+#login-form input[type="submit"] {
+  font-size: 1.2em;
+  color: #fff;
+}
+
+/* Registration page specific styles */
+#registration-form label[for="reg-username"],
+#registration-form label[for="reg-password"],
+#registration-form label[for="reg-email"] {
+  font-size: 1.2em;
+  color: #333;
+}
+
+#registration-form input[type="text"],
+#registration-form input[type="password"],
+#registration-form input[type="email"],
+#registration-form select {
+  font-size: 1.2em;
+  color: #333;
+}
